@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.12.3 on win32)" generated="2024-09-16T20:48:46.629281" rpa="false" schemaversion="5">
+<suite id="s1" name="Vasup-Exam" source="C:\Users\Wafer\OneDrive\Documents\GitHub\Vasup-Exam">
+<suite id="s1-s1" name="Testcase-Vasup" source="C:\Users\Wafer\OneDrive\Documents\GitHub\Vasup-Exam\Testcase-Vasup.robot">
+<kw name="Log display" owner="Keywords" type="SETUP">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${Num}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-09-16T20:48:46.753730" elapsed="0.000998"/>
+</kw>
+<arg>${Log_1000}</arg>
+<status status="PASS" start="2024-09-16T20:48:46.753730" elapsed="0.000998"/>
+</kw>
+<test id="s1-s1-t1" name="TC_001 Test" line="10">
+<kw name="Log display" owner="Keywords">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${Num}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-09-16T20:48:46.755724" elapsed="0.000000"/>
+</kw>
+<arg>${Log_5000}</arg>
+<status status="PASS" start="2024-09-16T20:48:46.754728" elapsed="0.000996"/>
+</kw>
+<kw name="Log display" owner="Keywords">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${Num}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-09-16T20:48:46.756721" elapsed="0.000000"/>
+</kw>
+<arg>${Log_6000}</arg>
+<status status="PASS" start="2024-09-16T20:48:46.755724" elapsed="0.000997"/>
+</kw>
+<kw name="Log display" owner="Keywords" type="TEARDOWN">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${Num}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-09-16T20:48:46.756721" elapsed="0.000997"/>
+</kw>
+<arg>${Log_4000}</arg>
+<status status="PASS" start="2024-09-16T20:48:46.756721" elapsed="0.000997"/>
+</kw>
+<status status="PASS" start="2024-09-16T20:48:46.754728" elapsed="0.002990"/>
+</test>
+<kw name="Log display" owner="Keywords" type="TEARDOWN">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${Num}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-09-16T20:48:46.758714" elapsed="0.000000"/>
+</kw>
+<arg>${Log_2000}</arg>
+<status status="PASS" start="2024-09-16T20:48:46.758714" elapsed="0.000000"/>
+</kw>
+<status status="PASS" start="2024-09-16T20:48:46.645247" elapsed="0.113467"/>
+</suite>
+<status status="PASS" start="2024-09-16T20:48:46.632270" elapsed="0.127442"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Vasup-Exam">Vasup-Exam</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1" name="Testcase-Vasup">Vasup-Exam.Testcase-Vasup</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

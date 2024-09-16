@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.12.3 on win32)" generated="2024-09-16T20:49:07.997361" rpa="false" schemaversion="5">
+<suite id="s1" name="Testcase-Vasup" source="c:\Users\Wafer\OneDrive\Documents\GitHub\Vasup-Exam\Testcase-Vasup.robot">
+<kw name="Log display" owner="Keywords" type="SETUP">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${Num}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-09-16T20:49:08.118816" elapsed="0.000000"/>
+</kw>
+<arg>${Log_1000}</arg>
+<status status="PASS" start="2024-09-16T20:49:08.117820" elapsed="0.000996"/>
+</kw>
+<test id="s1-t1" name="TC_001 Test" line="10">
+<kw name="Log display" owner="Keywords">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${Num}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-09-16T20:49:08.118816" elapsed="0.000000"/>
+</kw>
+<arg>${Log_5000}</arg>
+<status status="PASS" start="2024-09-16T20:49:08.118816" elapsed="0.000000"/>
+</kw>
+<kw name="Log display" owner="Keywords">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${Num}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-09-16T20:49:08.119813" elapsed="0.000000"/>
+</kw>
+<arg>${Log_6000}</arg>
+<status status="PASS" start="2024-09-16T20:49:08.119813" elapsed="0.000000"/>
+</kw>
+<kw name="Log display" owner="Keywords" type="TEARDOWN">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${Num}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-09-16T20:49:08.119813" elapsed="0.000000"/>
+</kw>
+<arg>${Log_4000}</arg>
+<status status="PASS" start="2024-09-16T20:49:08.119813" elapsed="0.000000"/>
+</kw>
+<status status="PASS" start="2024-09-16T20:49:08.118816" elapsed="0.000997"/>
+</test>
+<test id="s1-t2" name="TC_002 Test2" line="15">
+<kw name="Log display" owner="Keywords" type="SETUP">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${Num}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-09-16T20:49:08.120809" elapsed="0.000000"/>
+</kw>
+<arg>${Log_3000}</arg>
+<status status="PASS" start="2024-09-16T20:49:08.120809" elapsed="0.000000"/>
+</kw>
+<kw name="Log display" owner="Keywords">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${Num}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-09-16T20:49:08.120809" elapsed="0.000000"/>
+</kw>
+<arg>${Log_7000}</arg>
+<status status="PASS" start="2024-09-16T20:49:08.120809" elapsed="0.000000"/>
+</kw>
+<kw name="Log display" owner="Keywords" type="TEARDOWN">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${Num}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-09-16T20:49:08.120809" elapsed="0.000000"/>
+</kw>
+<arg>${Log_4000}</arg>
+<status status="PASS" start="2024-09-16T20:49:08.120809" elapsed="0.000000"/>
+</kw>
+<status status="PASS" start="2024-09-16T20:49:08.120809" elapsed="0.000000"/>
+</test>
+<kw name="Log display" owner="Keywords" type="TEARDOWN">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${Num}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-09-16T20:49:08.122325" elapsed="0.000000"/>
+</kw>
+<arg>${Log_2000}</arg>
+<status status="PASS" start="2024-09-16T20:49:08.122325" elapsed="0.000000"/>
+</kw>
+<status status="PASS" start="2024-09-16T20:49:07.998357" elapsed="0.123968"/>
+</suite>
+<statistics>
+<total>
+<stat pass="2" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="2" fail="0" skip="0" id="s1" name="Testcase-Vasup">Testcase-Vasup</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
